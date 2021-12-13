@@ -18,8 +18,9 @@
 #     ...
 #   ]
 standalone_tags:
-  [
-  ]
+   [ 
+#      {id: 0, size: 0.08}
+   ]
 # ## Tag bundle definitions
 # ### Remarks
 #
@@ -41,6 +42,27 @@ standalone_tags:
 #     },
 #     ...
 #   ]
+#tag_bundles:
+#   [
+#     {
+#       name: 'DOCK',
+#       layout:
+#         [
+#           {id: 1, size: 0.1, x: -0.2225, y: 0.0, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+#           {id: 0, size: 0.1, x: 0.2225, y: 0.0, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
+#         ]
+#     }
+#   ]
+
 tag_bundles:
-  [
-  ]
+   [
+     {
+       name: 'dock_platform',
+       layout:
+         [
+           {id: 0, size: 0.08, x: 0.42, y: 0.0, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+           {id: 1, size: 0.08, x: -0.48, y: 0.0, z: 0.0, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
+         ]
+     }
+   ]
+
